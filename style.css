@@ -1,0 +1,68 @@
+html {
+  font-family: 'Tahoma';
+  font-size: 15px;
+  background-color: #ffe;
+  color: #001 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1rem;
+}
+
+h6 {
+  margin: 0;
+}
+
+p, li, i, strong, bold, a {
+  padding: 0.05rem;
+}
+
+body {
+  padding: 2mm 6mm;
+  max-width: 14cm;
+  margin: 0 auto;
+}
+
+a {
+  color: inherit !important;
+}
+
+#list {
+  list-style-type: none;
+  padding-left: 4mm;
+}
+
+#list li a.date {
+  font-style: italic;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+i.date {
+  padding-left: 4mm;
+}
+
+#content {
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: lightgray;
+  margin: 6mm 0;
+}
+
+blockquote {
+  margin: 10px;
+  border-left: 3px solid #eee;
+  padding-left: 15px;
+  color: #333;
+}
+
+dt {
+  margin-left: 20px;
+}
+
+dd {
+  margin-bottom: 3mm;
+}
