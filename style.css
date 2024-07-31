@@ -1,8 +1,6 @@
 html {
-  font-family: 'Tahoma';
-  font-size: 15px;
-  background-color: #ffe;
-  color: #001 !important;
+  font-family: monospace;
+  font-size: 12px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -14,17 +12,16 @@ h6 {
 }
 
 p, li, i, strong, bold, a {
-  padding: 0.05rem;
 }
 
 body {
   padding: 2mm 6mm;
-  max-width: 14cm;
+  max-width: 12cm;
   margin: 0 auto;
+  padding-top: 3rem;
 }
 
 a {
-  color: inherit !important;
 }
 
 #list {
