@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Kashav Madan, website, github, software engineer."
+    />
+    <title>Browser Engineer</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+      ul li {
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>What it means to be a Browser Engineer</h1>
+      <div id="content">
+        <p>
+          I worked on the Firefox browser at Mozilla from 2018-2021. The role
+          was vast and all-encompassing.
+        </p>
+        <p>
+          On a day to day basis my tasks spanned all or much of the following:
+        </p>
+        <ul>
+          <li>
+            the site isolation iframe sandboxing project (known internally as
+            Fission) -
+            <em
+              ><a
+                href="https://blog.mozilla.org/security/2021/05/18/introducing-site-isolation-in-firefox/"
+                >more details</a
+              ></em
+            >
+          </li>
+          <li>
+            the Gecko browser engine:
+            <ul>
+              <li>
+                web API internals like window.open() and the Document object
+              </li>
+              <li>
+                code for loading webpages, handling documents, rendering frames,
+                allocating processes, and more
+              </li>
+              <li>
+                infrastructure for low-level C++ mechanisms like IPC and XPCOM,
+                and some parts of the SpiderMonkey JS engine
+              </li>
+              <li>
+                garbage collection, cycle collection, refcounting, and Firefox
+                memory overhead in general
+              </li>
+              <li>and more</li>
+            </ul>
+          </li>
+          <li>
+            the cross-platform Firefox Desktop application:
+            <ul>
+              <li>
+                the browser frontend for things like the URL bar and tabs, and
+                lots of glue code to enable interaction between the JS frontend
+                and C++ backend
+              </li>
+              <li>
+                various devtools modules and their underlying architectures,
+                like the inspector and networking
+              </li>
+              <li>session restore (as owner of the module)</li>
+              <li>and more</li>
+            </ul>
+          </li>
+          <li>
+            and related projects:
+            <ul>
+              <li>
+                webcompat, and particularly debugging and analyzing websites to
+                ensure that Firefox features were implemented correctly
+              </li>
+              <li>
+                searchfox.org, a codesearch tool built by Mozilla and used by
+                other open source projects like WebKit
+              </li>
+              <li>the rr record and replay debugger</li>
+            </ul>
+          </li>
+        </ul>
+        <p>
+          Jumping between vastly different problem spaces was a standard part of
+          the job, and work had a tendency of becoming mind-numbing because of
+          how much context switching was happening. I found it to be rewarding
+          work because of how much I was accomplishing and learning but it was
+          stressful work nonetheless.
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
