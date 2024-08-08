@@ -1,5 +1,5 @@
 html {
-  font-family: monospace;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
 
@@ -11,14 +11,9 @@ h6 {
   margin: 0;
 }
 
-p, li, i, strong, bold, a {
-}
-
 body {
-  padding: 2mm 6mm;
+  padding: 3mm;
   max-width: 12cm;
-  margin: 0 auto;
-  padding-top: 3rem;
 }
 
 a {
