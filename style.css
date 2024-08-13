@@ -16,9 +16,6 @@ body {
   max-width: 12cm;
 }
 
-a {
-}
-
 #list {
   list-style-type: none;
   padding-left: 4mm;
@@ -32,9 +29,6 @@ a {
 
 i.date {
   padding-left: 4mm;
-}
-
-#content {
 }
 
 hr {
